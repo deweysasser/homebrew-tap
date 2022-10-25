@@ -8,7 +8,7 @@ class Cumulus < Formula
         url "https://github.com/deweysasser/cumulus/releases/download/v0.1.0/cumulus-darwin-amd64.zip"
       sha256 "e3547b4150eed0c2fde1b9f2c80cd083a6888f8138ba4921cd1cd0c496cad6c8"
     end
-    if Hardware::CPU.arm? && !Hardware::CPU.is_64_bit?
+    if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
       url "https://github.com/deweysasser/cumulus/releases/download/v0.1.0/cumulus-darwin-arm64.zip"
       sha256 "13d4c7b6901c9ae0ded25b74377ca67ec4bafdd1191eee5bd2e6e4f974fca3da"
     end
