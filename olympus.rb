@@ -1,29 +1,29 @@
-class olympus < Formula
-  desc ""
+class Olympus < Formula
+  desc "Terraform and GitOps"
   homepage "https://github.com/deweysasser/olympus"
-  version "v0.2.2"
+  version "v0.2.3"
 
   on_macos do
 
     if Hardware::CPU.intel?
-      url "https://github.com/deweysasser/olympus/releases/download/v0.2.2/olympus-darwin-amd64"
-      sha256 "fc2eaacf297ac6c9c3249b87a72bc692e555e42215599366fe4fb4584b0ebc6e"
+      url "https://github.com/deweysasser/olympus/releases/download/v0.2.3/olympus-darwin-amd64.zip"
+      sha256 "41a1c3eaca5f9e590bcf25a59df347aa42c2dd0e90ab85cbd43d082dac72f44b"
     end
 
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/deweysasser/olympus/releases/download/v0.2.2/olympus-darwin-arm64"
-      sha256 "419659131ebbda2cac567aa7a9d7db8d6bf10488159c07c2d1c665d47a22ffd9"
+      url "https://github.com/deweysasser/olympus/releases/download/v0.2.3/olympus-darwin-arm64.zip"
+      sha256 "c999ba895e07f66595a728863cd44f91025f351d7ff4513b45ff4657ca3884a7"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/deweysasser/olympus/releases/download/v0.2.2/olympus-linux-amd64"
-      sha256 "a5395c7f0e31425f574142ae0ef0370e73aeb4f9024c2a884ca87ed1da72c662"
+      url "https://github.com/deweysasser/olympus/releases/download/v0.2.3/olympus-linux-amd64.zip"
+      sha256 "630c0447a64332821d32506a2add916124166a417157cb9f80d8f57a601e54e7"
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/deweysasser/olympus/releases/download/v0.2.2/olympus-linux-arm64"
-      sha256 "de726b4204dec600dfa00dfd4fc0d0c7a4b944a603b7742d66d19d230e9d8f43"
+      url "https://github.com/deweysasser/olympus/releases/download/v0.2.3/olympus-linux-arm64.zip"
+      sha256 "004fc36f85d1941ef0395f650ea31328c7b9d12e05c960b6fb19f08cf74405ac"
     end
   end
 
