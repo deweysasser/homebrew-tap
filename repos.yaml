@@ -1,0 +1,6 @@
+recipes:
+  - owner: deweysasser
+    repo: cumulus
+    description: Bulk access to multiple AWS clouds
+  - owner: deweysasser
+    repo: olympus
