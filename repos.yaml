@@ -5,3 +5,9 @@ recipes:
     description: Bulk access to multiple AWS clouds
   - repo: olympus
   - repo: releasetool
+    description: A tool for making homebrew (and eventually other) releases, like this one
+  - repo: eks-kubeconfig-update
+tap: deweysasser/tap
+docs:
+  - file: README.md
+    section: "## Software"
