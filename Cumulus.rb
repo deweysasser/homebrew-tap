@@ -1,29 +1,29 @@
 class Cumulus < Formula
   desc "Bulk access to multiple AWS clouds"
   homepage "https://github.com/deweysasser/cumulus"
-  version "v0.2.2"
+  version "v0.3.3"
 
   on_macos do
 
     if Hardware::CPU.intel?
-      url "https://github.com/deweysasser/cumulus/releases/download/v0.2.2/cumulus-darwin-amd64.zip"
-      sha256 "9ca314c2366fa199402324ff9b8b6276213f67ea9a6c7ca625b8ddb04f726d76"
+      url "https://github.com/deweysasser/cumulus/releases/download/v0.3.3/cumulus-darwin-amd64.zip"
+      sha256 "910dc606a1ca67194f083dc8643260f69a493dfbe2f7a9f74303532bc815d9ea"
     end
 
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/deweysasser/cumulus/releases/download/v0.2.2/cumulus-darwin-arm64.zip"
-      sha256 "71dd80fbce3c708f44fea6513a9c1353ebc7a7d666bce4137edfa14b043298f5"
+      url "https://github.com/deweysasser/cumulus/releases/download/v0.3.3/cumulus-darwin-arm64.zip"
+      sha256 "c0a4624ea55f28a1b3e5302efaa2ebee52ca6f85fd9d36c6b34522f10606daa5"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/deweysasser/cumulus/releases/download/v0.2.2/cumulus-linux-amd64.zip"
-      sha256 "5387c81795142de68a2f81b3282a488a76ec1619157b2ca5a50a1fca8121e061"
+      url "https://github.com/deweysasser/cumulus/releases/download/v0.3.3/cumulus-linux-amd64.zip"
+      sha256 "fb16bf910cdd586912529865216ed43c30fb060055c7915758532121236e16ce"
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/deweysasser/cumulus/releases/download/v0.2.2/cumulus-linux-arm64.zip"
-      sha256 "53d0bd49cc05f69888c10c083d38e6f6443efebdfe3ce63596109e1cd1e2547d"
+      url "https://github.com/deweysasser/cumulus/releases/download/v0.3.3/cumulus-linux-arm64.zip"
+      sha256 "bd5aaba255c7cc86e29b8b3b7aa598d41f4bbe7cce949c895955b86a9d6b63f1"
     end
   end
 
