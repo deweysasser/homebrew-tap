@@ -4,7 +4,7 @@ A list of software I've written for which I maintain homebrew installs
 
 ## Software
 
-* [cumulus](https://github.com/deweysasser/cumulus) (Version: v0.3.3) -- Bulk access to multiple AWS clouds
+* [cumulus](https://github.com/deweysasser/cumulus) (Version: v0.4.0) -- Bulk access to multiple AWS clouds
 
   ```brew install deweysasser/tap/cumulus```
 
