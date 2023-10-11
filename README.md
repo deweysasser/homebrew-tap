@@ -14,7 +14,7 @@ A list of software I've written for which I maintain homebrew installs
   ```brew install deweysasser/tap/olympus```
 
 
-* [releasetool](https://github.com/deweysasser/releasetool) (Version: v0.3) -- A tool for making homebrew (and eventually other) releases, like this one
+* [releasetool](https://github.com/deweysasser/releasetool) (Version: v0.4) -- A tool for making homebrew (and eventually other) releases, like this one
 
   ```brew install deweysasser/tap/releasetool```
 

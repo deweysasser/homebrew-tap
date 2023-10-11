@@ -1,29 +1,29 @@
 class Releasetool < Formula
   desc "A tool for making homebrew (and eventually other) releases, like this one"
   homepage "https://github.com/deweysasser/releasetool"
-  version "v0.3"
+  version "v0.4"
 
   on_macos do
 
     if Hardware::CPU.intel?
-      url "https://github.com/deweysasser/releasetool/releases/download/v0.3/releasetool-darwin-amd64.zip"
-      sha256 "182a1682e93de98fcf3189cd22a84a5592e6c262befd10f6a8726719a533aff3"
+      url "https://github.com/deweysasser/releasetool/releases/download/v0.4/releasetool-darwin-amd64.zip"
+      sha256 "74c3b8953eaece3d7218fbb592920c4c18f26f68bf884eab0eefca2b20f9d5d3"
     end
 
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/deweysasser/releasetool/releases/download/v0.3/releasetool-darwin-arm64.zip"
-      sha256 "318f79225a0b35ebd2905cee1c33059eab891a0e8725e0ae791a2c502baaa046"
+      url "https://github.com/deweysasser/releasetool/releases/download/v0.4/releasetool-darwin-arm64.zip"
+      sha256 "15e23efa73192c2c877bb8e9cc2ddad08de87d0895719ae2b89d69d7e00df379"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/deweysasser/releasetool/releases/download/v0.3/releasetool-linux-amd64.zip"
-      sha256 "c4c8f8868e333b8982f2a6fef0c738d57cd1797d0ea75cbfab8e80c84ea81014"
+      url "https://github.com/deweysasser/releasetool/releases/download/v0.4/releasetool-linux-amd64.zip"
+      sha256 "6476263db22953dc4f9e83c6fb885896d6b196ae450bca7a9cbac279053b25b2"
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/deweysasser/releasetool/releases/download/v0.3/releasetool-linux-arm64.zip"
-      sha256 "9ae3f0f68c6277854775f7585b0243c7d09f788fe20af6fa7c9ef994b6be49f7"
+      url "https://github.com/deweysasser/releasetool/releases/download/v0.4/releasetool-linux-arm64.zip"
+      sha256 "412a8b866b6e5d444e030cd2150f9cb61c4a49f11d36f5f560cc757c08375945"
     end
   end
 
