@@ -23,3 +23,8 @@ A list of software I've written for which I maintain homebrew installs
 
   ```brew install deweysasser/tap/eks-kubeconfig-update```
 
+
+* [k8sutils](https://github.com/deweysasser/k8sutils) (Version: v0.1) -- Utilities to manipulate running kubernetes object
+
+  ```brew install deweysasser/tap/k8sutils```
+

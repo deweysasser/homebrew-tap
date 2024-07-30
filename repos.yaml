@@ -7,6 +7,7 @@ recipes:
   - repo: releasetool
     description: A tool for making homebrew (and eventually other) releases, like this one
   - repo: eks-kubeconfig-update
+  - repo: k8sutils
 tap: deweysasser/tap
 docs:
   - file: README.md
