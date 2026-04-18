@@ -1,4 +1,4 @@
-class ReleasetoolAT050rc1 < Formula
+class ReleasetoolAT050Rc1 < Formula
   desc "A tool for making homebrew (and eventually other) releases, like this one"
   homepage "https://github.com/deweysasser/releasetool"
   version "v0.5.0-rc.1"
