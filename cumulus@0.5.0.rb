@@ -1,4 +1,4 @@
-class Cumulus < Formula
+class CumulusAT050 < Formula
   desc "Bulk access to multiple AWS clouds"
   homepage "https://github.com/deweysasser/cumulus"
   version "v0.5.0"
